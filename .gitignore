@@ -38,6 +38,24 @@ bin/
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
-.DS_Store
+
+# Node.js & 前端相关
 node_modules/
+dist/
+build/
+
+# Java & Gradle 相关
+*.class
+*.jar
+*.war
+*.ear
+*.log
+.gradle/
+build/
+
+# Firebase 私密配置
+firebase-adminsdk.json
+
+# IDEA / VS Code 编辑器配置
+.idea/
+.vscode/
