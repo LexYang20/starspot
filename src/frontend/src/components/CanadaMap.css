@@ -1,0 +1,20 @@
+/* CanadaMap.css */
+.ytmap-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.ytmap-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* This is very important, make sure the leaflet container has a height */
+.ytleaflet-container {
+    width: 100% !important;
+    height: 100% !important;
+}

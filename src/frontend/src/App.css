@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 禁止滚动 */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;  /* 关键是这个 */
+    height: 100vh;     /* 使用视口高度 */
+}
+
+/* root容器样式 */
+.app-root {
+    width: max-content;  /* 适应内容宽度 */
+    height: max-content; /* 适应内容高度 */
+    overflow: hidden;    /* 防止内部滚动 */
+}
+
+/* 地图容器 */
+.leaflet-container {
+    height: 100%;
+    width: 100%;
+}
+
+.map-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
