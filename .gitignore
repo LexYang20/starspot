@@ -59,3 +59,4 @@ firebase-adminsdk.json
 # IDEA / VS Code 编辑器配置
 .idea/
 .vscode/src/main/resources/firebase/serviceAccount.json
+src/main/resources/firebase/serviceAccount.json
