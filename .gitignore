@@ -60,3 +60,4 @@ firebase-adminsdk.json
 .idea/
 .vscode/src/main/resources/firebase/serviceAccount.json
 src/main/resources/firebase/serviceAccount.json
+src/main/resources/firebase/serviceAccount.json
